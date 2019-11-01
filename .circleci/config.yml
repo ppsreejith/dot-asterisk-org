@@ -1,0 +1,18 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:latest
+    working_directory: ~/hugo
+    environment:
+      HUGO_BUILD_DIR: ~/hugo/public
+    steps:
+      - run: apk update && apk add git
+      - checkout
+      - run: git submodule sync && git submodule update
+      - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
+      - run: htmlproofer $HUGO_BUILD_DIR
+
+      # deploy
+      - run: ssh -o StrictHostKeyChecking=no circleci@ppsreejith.net "mkdir -p /home/circleci/dot-asterisk-org"
+      - run: scp -o StrictHostKeyChecking=no -r $HUGO_BUILD_DIR circleci@ppsreejith.net:/home/circleci/dot-asterisk-org
