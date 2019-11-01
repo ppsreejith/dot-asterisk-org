@@ -2,6 +2,4 @@
 Just another org blog
 
 * Build Status
-#+BEGIN_export markdown
-[![CircleCI](https://circleci.com/gh/ppsreejith/dot-asterisk-org.svg?style=svg)](https://circleci.com/gh/ppsreejith/dot-asterisk-org)
-#+END_export
+[[https://circleci.com/gh/ppsreejith/dot-asterisk-org.svg?style=svg]]
