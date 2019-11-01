@@ -1,0 +1,24 @@
+baseURL = "https://ppsreejith.net/"
+languageCode = "en-us"
+title = "Dot Asterisk"
+name = "Dot Asterisk"
+theme = "yinyang"
+
+# [author]
+#   name = "Sreejith Puthanpurayil"
+#   homepage = "https://ppsreejith.net/"
+
+[params]
+headTitle = "Dot Asterisk"
+[[params.socials]]
+name = "Github"
+link = "https://github.com/ppsreejith"
+[[params.socials]]
+name = "Goodreads"
+link = "https://www.goodreads.com/user/show/20228885-sreejith-pp"
+[[params.socials]]
+name = "Twitter"
+link = "https://twitter.com/ppsreejith_/"
+# [[params.socials]]
+# name = "Instagram"
+# link = "https://www.instagram.com/ppsreejith/"

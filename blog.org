@@ -1,0 +1,11 @@
+#+STARTUP: content
+#+AUTHOR: Sreejith Puthanpurayil
+#+HUGO_BASE_DIR: .
+#+HUGO_AUTO_SET_LASTMOD: t
+* Posts
+** DONE Moving my blog to org mode
+   CLOSED: [2019-11-02 Sat 01:57]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: moving-my-blog-to-org-mode
+   :END:
+   I've finally bit the bullet and decided to move my blog to org mode. More on this soon.

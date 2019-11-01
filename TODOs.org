@@ -1,0 +1,15 @@
+* MVP
+  - [X] Get Design Right
+    - [X] Link to Github, Goodreads, Twitter, Instagram
+    - [X] Look Minimalist
+  - [ ] Set up blog on subdomain
+  - [ ] Set up push to deploy
+  - [ ] Port old blog articles
+* Roadmap [0/7] [0%]
+  - [ ] Link to a fork of the theme
+  - [ ] Remove ugly author info from each post
+  - [ ] Add Author Information
+  - [ ] Link to other sources
+  - [ ] Add date to each post's URL
+  - [ ] Add a function to create a blog post
+  - [ ] Use Emacs to build to whole blog again in production
